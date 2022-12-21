@@ -30,13 +30,20 @@ const Hero = () => (
         variants={slideIn("right", "tween", 0.2, 1)}
         className="relative w-full md:mt-[20px] -mt-12px"
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]">
-          <img
-            src="/cover.png"
-            alt="cover"
-            className="w-full sm:h-[550px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
-          />
-        </div>
+        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+        <img
+          src="/cover.png"
+          alt="cover"
+          className="w-full sm:h-[550px] md:h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+        />
+        <a href="#explore">
+          <div className="w-full flex justify-end sm:-mt-[75px] -mt-[50px] z-10 pr-[40px] relative">
+            <img
+              src="/stamp.png"
+              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px]  object-contain"
+            />
+          </div>
+        </a>
       </motion.div>
     </motion.div>
   </section>
