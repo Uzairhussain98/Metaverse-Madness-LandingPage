@@ -38,8 +38,20 @@ const World = () => (
         <div className="absolute top-1/2 left-[50%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img src="/people-03.png" alt="p3" className="w-full h-full" />
         </div>
-        <div className="absolute top-1/2 left-[30%] w-[100px] h-[80px] p-[6px] rounded-full  ">
-          <p>HEllo</p>
+        <div className="absolute top-[20%] left-[70%] w-[150px] h-[100px] p-[4px] rounded-lg bg-[#6d758b] ">
+          <img
+            src="/card-1.png"
+            alt="card1"
+            className="w-full h-full max-w-[100%]"
+          />
+        </div>
+
+        <div className="absolute top-[40%] left-[15%] w-[150px] h-[100px] p-[4px] rounded-lg bg-[#6d758b] ">
+          <img
+            src="/card-2.png"
+            alt="card1"
+            className="w-full h-full max-w-[100%]"
+          />
         </div>
       </motion.div>
     </motion.div>
