@@ -37,7 +37,7 @@ const Hero = () => (
           className="w-full sm:h-[550px] md:h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
         <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[75px] -mt-[50px] z-10 pr-[40px] relative">
+          <div className="w-full flex justify-end sm:-mt-[75px] -mt-[50px] z-10 pr-[40px] absolute">
             <img
               src="/stamp.png"
               className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px]  object-contain"
