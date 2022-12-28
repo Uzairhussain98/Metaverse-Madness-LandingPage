@@ -38,7 +38,7 @@ const World = () => (
         <div className="absolute top-1/2 left-[50%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img src="/people-03.png" alt="p3" className="w-full h-full" />
         </div>
-        <div className="absolute top-[20%] left-[70%] w-[150px] h-[100px] p-[4px] rounded-lg bg-[#6d758b] ">
+        <div className="absolute top-[20%] left-[70%] w-[150px] h-[100px] p-[4px] rounded-[20px] bg-[#6d758b] ">
           <img
             src="/card-1.png"
             alt="card1"
@@ -46,7 +46,7 @@ const World = () => (
           />
         </div>
 
-        <div className="absolute top-[40%] left-[15%] w-[150px] h-[100px] p-[4px] rounded-lg bg-[#6d758b] ">
+        <div className="absolute top-[40%] left-[15%] w-[150px] h-[100px] p-[4px] rounded-[20px] bg-[#6d758b] ">
           <img
             src="/card-2.png"
             alt="card1"
